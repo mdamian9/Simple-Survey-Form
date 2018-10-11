@@ -15,18 +15,20 @@
 
         <div class="center-text header">
             <h1 id="title">Survey Form</h1>
-            <div><p id="description">Help us by filling out this quick survey!</p></div>
+            <div>
+                <p id="description">Help us by filling out this quick survey!</p>
+            </div>
         </div>
         <br />
 
         <form class="center-text" id="survey-form">
-            <b>• Enter your name:</b><br>
-            <input id="name" type="text" name="name" placeholder="Enter your name"><br><br>
-            <b>• Enter your email:</b><br>
-            <input id="email" type="email" name="email" placeholder="Enter your Email"><br><br>
-            <b>• Enter your age:</b><br>
+            <label id="name-label" for="name"><b>• Enter your name:</label></b><br>
+            <input id="name" type="text" name="name" placeholder="Enter your name" required><br><br>
+            <label id="email-label" for="email"><b>• Enter your email:</b></label><br>
+            <input id="email" type="email" name="email" placeholder="Enter your Email" required><br><br>
+            <label id="number-label" for="number"><b>• Enter your age:</b></label><br>
             <input id="number" type="number" name="age" min="1" max="100" placeholder="Enter your age"><br><br>
-            
+
             <input id="submit" type="submit" value="Submit">
         </form>
 
