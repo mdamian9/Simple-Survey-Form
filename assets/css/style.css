@@ -6,3 +6,26 @@ body {
     text-align: center;
 }
 
+.header {
+    background-color: lightgray;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#survey-form {
+    background-color: lightgray;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+form input {
+    width: 150px;
+}
+
+#submit {
+    width: 75px;
+}
