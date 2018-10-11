@@ -26,9 +26,14 @@ form input {
     width: 150px;
 }
 
-#radio-btns {
+.radio-checkbox {
    text-align: left;
-   margin-left: 110px;
+   margin-left: 150px;
+}
+
+textarea {
+    width: 400px;
+    padding: 5px;
 }
 
 #submit {

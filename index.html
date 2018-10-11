@@ -28,7 +28,7 @@
             <input id="email" type="email" name="email" placeholder="Enter your Email" required><br><br>
             <label id="number-label" for="number"><b>• Enter your age:</b></label><br>
             <input id="number" type="number" name="age" min="1" max="100" placeholder="Enter your age"><br><br>
-            <b>On a scale of 1-5, how much do you like soccer?</b><br>
+            <b>On a scale of 1-5, how much do you like soccer?</b><br><br>
             <select id="dropdown">
                 <option value="1">1 - (I don't like it)</option>
                 <option value="2">2 - (I find it boring but cool at times)</option>
@@ -38,12 +38,36 @@
             </select>
             <br><br>
             <b>Did you ever play soccer in the rain as a child?</b><br><br>
-            <div id="radio-btns">
+            <div class="radio-checkbox" id="radio-btns">
                 <input type="radio" name="response" value="never">Never<br>
                 <input type="radio" name="response" value="rarely">Rarely<br>
                 <input type="radio" name="response" value="sometimes">Sometimes<br>
-                <input type="radio" name="response" value="often">Often<br><br>
+                <input type="radio" name="response" value="often">Often
             </div>
+            <br><br>
+            <b>What do you like about soccer? (check all that apply)</b><br><br>
+            <div class="radio-checkbox">
+                <input type="checkbox" name="option1" value="pace">The pace of play<br>
+                <input type="checkbox" name="option2" value="length">The length of the game<br>
+                <input type="checkbox" name="option3" value="uniforms">The uniforms look cool<br>
+                <input type="checkbox" name="option4" value="exciting">It's exciting<br>
+                <input type="checkbox" name="option5" value="manyPlayers">There are many players
+            </div>
+            <br><br>
+            <b>What don't you like about soccer? (check all that apply)</b><br><br>
+            <div class="radio-checkbox">
+                <input type="checkbox" name="option1" value="boring">It's boring<br>
+                <input type="checkbox" name="option2" value="running">Too much running<br>
+                <input type="checkbox" name="option3" value="shortTime">Time is too short<br>
+                <input type="checkbox" name="option4" value="longTime">Time is too long<br>
+                <input type="checkbox" name="option5" value="fakers">Players fake injuries
+            </div>
+            <br><br>
+            <b>Type a sentence or two that describes how you feel about soccer:</b><br><br>
+            <textarea rows="3">
+
+            </textarea>
+            <br><br>
 
             <input id="submit" type="submit" value="Submit">
         </form>
