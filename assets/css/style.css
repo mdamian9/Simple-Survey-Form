@@ -26,6 +26,11 @@ form input {
     width: 150px;
 }
 
+#radio-btns {
+   text-align: left;
+   margin-left: 110px;
+}
+
 #submit {
     width: 75px;
 }
